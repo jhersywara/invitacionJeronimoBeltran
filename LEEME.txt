@@ -1,0 +1,26 @@
+INVITACIÓN NEX - ARCHIVOS EDITABLES
+
+EDITAR NOMBRES:
+1. Abre esta carpeta en Visual Studio Code.
+2. Abre invitaci_n_digital_nex.html.
+3. Busca el bloque "EDITA AQUÍ LOS NOMBRES Y FOTOGRAFÍAS".
+4. Modifica:
+   - AUTORA_EVENTO: nombre y foto de la autora.
+   - PONENTE_INVITADO: nombre, descripción y foto del ponente.
+   - ORGANIZADORES_EVENTO: nombre, cargo, carrera y foto de cada organizador.
+5. Guarda con Ctrl + S y actualiza la invitación en el navegador con Ctrl + F5.
+
+EDITAR FOTOGRAFÍAS:
+- Copia cada fotografía dentro de la carpeta img.
+- En el código escribe su ruta relativa, por ejemplo:
+  foto: "img/ponente.jpg"
+  foto: "img/org1.jpg"
+- Para agregar otro organizador, duplica una línea de objeto dentro del arreglo ORGANIZADORES_EVENTO y cambia sus datos.
+- Para quitar uno, elimina su línea completa (respetando las comas del arreglo).
+
+IMPORTANTE:
+- Mantén la carpeta img junto al archivo HTML.
+- No uses rutas locales absolutas de Windows (C:\...).
+- Abre el HTML con Live Server o directamente en el navegador.
+- El botón "Organizadores" se conserva; el botón de edición se eliminó.
+- El diseño y las animaciones de la invitación se conservaron.
